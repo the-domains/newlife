@@ -1,8 +1,6 @@
-layout_spectrum: 0.8852298
 color:
   saturation: 0.9355047
   brandStrength: 0
-  lightness: 0.4727061
   rhythmicContrast: 0.9778342
   brandColors:
     - '#B8B42D'
@@ -10,5 +8,19 @@ color:
     - '#FFFCE8'
     - '#3E363F'
     - '#DD403A'
+  lightness: 0.4727061
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+layout_spectrum: 0.8852298
 typography_spectrum: 0.8795111
 name: Newlife
